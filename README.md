@@ -65,6 +65,20 @@ The project follows a layered architecture with proper validation, centralized e
              JSON HTTP Response
 ```
 
+## Project Structure
+
+This project follows the standard Maven/Spring Boot directory layout.
+
+Test classes are located under:
+
+src/test/java
+
+which is the conventional location used by Maven and executed via:
+
+mvn test
+
+---
+
 
 ## API Endpoints
 
@@ -209,15 +223,15 @@ src
 
 ### Swagger UI
 
-![Swagger](screenshots/swagger-home.png)
+![Swagger](Screenshots/swagger-home.png)
 
 ### Create Expense
 
-![Create](screenshots/create-expense.png)
+![Create](Screenshots/create-expense.png)
 
 ### Validation Error
 
-![Validation](screenshots/validation-error.png)
+![Validation](Screenshots/validation-error.png)
 
 
 ## AI Usage
