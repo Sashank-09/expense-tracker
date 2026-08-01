@@ -154,6 +154,16 @@ After implementing new features or modifying AI-generated code, I reran the Mave
 
 ---
 
+## Clean checkout validation
+
+On 1 Aug 2026, I cloned the repository fresh into a separate directory
+and ran `mvn clean install` followed by `mvn test` and `mvn spring-boot:run`
+against the clone (not my working copy) to confirm the README's commands
+work exactly as written for someone starting from scratch. All 18 tests
+passed and the server started cleanly on port 8081.
+
+---
+
 # 3. AI suggestions I decided not to use
 
 During development, AI suggested several additional improvements.
