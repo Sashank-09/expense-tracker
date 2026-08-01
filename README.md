@@ -158,7 +158,7 @@ Business events such as creating and deleting expenses are logged using INFO, wh
 Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Sashank-09/expense-tracker.git
 ```
 
 Navigate
